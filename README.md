@@ -1,7 +1,7 @@
-# K6 gRPC test suite (Windows, Linux and Mac)
+# K6 gRPC Test Suite (Windows, Linux and Mac)
 
 ## Introduction
-This suit is used to test the gRPC services using K6.
+This suit is used to test the gRPC services developed in any supporting language using K6.
 
 ## Prerequisites:
 - Install K6 on the system used for testing
