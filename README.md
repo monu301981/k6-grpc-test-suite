@@ -23,7 +23,7 @@ This suit is used to test the gRPC services developed in any supporting language
 ## Adding tests
 - Add test files referring to the existing test scripts and deploy them in ./scripts/dev|qa|stg|prd folders based on the environments.
 - Add proto files referring to the existing proto files and deploy them in ./scripts/dev|qa|stg|prd folders based on the environments.
-- Add folder paths to files test.bat (for windows) or tests.sh (for linux)
+- Add folder paths to files test.bat (for windows) or tests.sh (for linux, mac) in the format provided for references in those folders.
 
 ## Please note:
 - remove all the demo files once the application specific tests are added.
