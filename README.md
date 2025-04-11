@@ -27,6 +27,9 @@ This suit is used to test the gRPC services developed in any supporting language
 - Open command prompt and run > sh runtests.sh stg (for staged environment).
 - Open command prompt and run > sh runtests.sh prd (for production environment).
 
+### Running individual scripts:
+- Open command prompt and run > k6 run scripts/[dev|qa|stg|prd]/restapi-example.js
+
 ## Adding tests
 - Add test files referring to the existing test scripts and deploy them in ./scripts/dev|qa|stg|prd folders based on the environments.
 - Add proto files referring to the existing proto files and deploy them in ./scripts/dev|qa|stg|prd folders based on the environments.
