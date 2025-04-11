@@ -10,25 +10,25 @@ This suit is used to test the gRPC services developed in any supporting language
 ## Installation:
 - Create an empty folder.
 - Open CMD/Terminal and navigate to this folder.
-- Execute command "git clone https://github.com/monu301981/k6-restapi-test-suite".
+- Execute command "git clone https://github.com/monu301981/k6-grpc-test-suite".
 - Get into this folder in CMD/terminal to execute further commands.
 
 ## Running tests
 
 ### Windows:
-- Open command prompt and run > runtests dev (for development environment).
+- Open command prompt, navigate to test folder and run > runtests dev (for development environment).
 - Open command prompt and run > runtests qa (for qa environment).
 - Open command prompt and run > runtests stg (for staged environment).
 - Open command prompt and run > runtests prd (for production environment).
 
 ### Linux or Mac:
-- Open command prompt and run > sh runtests.sh dev (for development environment).
-- Open command prompt and run > sh runtests.sh qa (for qa environment).
-- Open command prompt and run > sh runtests.sh stg (for staged environment).
-- Open command prompt and run > sh runtests.sh prd (for production environment).
+- Open terminal and run > sh runtests.sh dev (for development environment).
+- Open terminal and run > sh runtests.sh qa (for qa environment).
+- Open terminal and run > sh runtests.sh stg (for staged environment).
+- Open terminal and run > sh runtests.sh prd (for production environment).
 
 ### Running individual scripts:
-- Open command prompt and run > k6 run scripts/[dev|qa|stg|prd]/restapi-example.js
+- Open command prompt and run > k6 run scripts/[dev|qa|stg|prd]/grpc-example.js
 
 ## Adding tests
 - Add test files referring to the existing test scripts and deploy them in ./scripts/dev|qa|stg|prd folders based on the environments.
