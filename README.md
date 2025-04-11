@@ -29,7 +29,7 @@ This suit is used to test the gRPC services using K6.
 - remove all the demo files once the application specific tests are added.
 
 ## Credits:
-In githubworkflow folder, you can find different ways to setup the tools and infrastructure to execute the scripts
+Quickpizza -> https://github.com/grafana/quickpizza
 
  ## References
 * [k6 documentation](https://k6.io/docs/)
