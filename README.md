@@ -1,4 +1,4 @@
-# k6 gRPC test suite (Windows, Linux and Mac)
+# K6 gRPC test suite (Windows, Linux and Mac)
 
 ## Introduction
 This suit is used to test the gRPC services using K6.
